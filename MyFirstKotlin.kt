@@ -1,16 +1,16 @@
 //코틀린 첫 작품
 fun main() {
-    var Takanashi: Int = 102
-    var Rikuhachima: Double = 3.12
-    var Takanachima: Any = 0
+    var takanashi: Int = 102
+    var rikuhachima: Double = 3.12
+    var takanachima: Any = 0
     
-    println(Takanashi)
-    println(Rikuhachima)
-    println(Takanashi + Rikuhachima)
+    println(takanashi)
+    println(rikuhachima)
+    println(takanashi + rikuhachima)
     
-    Takanachima = Takanashi + Rikuhachima
+    takanachima = takanashi + rikuhachima
     
-    intDoubleTypeCheck(Takanachima)
+    intDoubleTypeCheck(takanachima)
 }
 
 fun intDoubleTypeCheck(Subject: Any) {
